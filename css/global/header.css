@@ -1,6 +1,7 @@
 .header-bg {
        background-color: #6F8168;
-       height: 120px;
+       font-family: Arial, Helvetica, sans-serif;
+       
 }
 
 .linhasup {
@@ -21,11 +22,11 @@
     padding-left: 40px;
     padding-top: 10px;
     padding-right: 40px;
+    padding-bottom: 20px;
   
 }
 
 .header-menu {
-  
   display: flex;
   flex-wrap: wrap;
   gap: 20px;

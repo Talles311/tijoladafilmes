@@ -35,17 +35,12 @@ img[src$=".jpg"] {
 
 }
 
+
+/*
 main {
-    background-color: #6F8168 ;
-   
+    background-color: #6F8168; 
 }
-
-.main-bg {
-  background-color: #6F8168  ;
-  height: 800px;   
-
-}
-
+*/
 .decoletra {
         color: white;
         font-weight: bold;
