@@ -1,7 +1,5 @@
 .header-bg {
-       background-color: #6F8168;
-       font-family: Arial, Helvetica, sans-serif;
-       
+       background-color: #6F8168;     
 }
 
 .linhasup {
@@ -14,28 +12,74 @@
 
 
 .header { 
-     display: flex;
-     flex-wrap: wrap;
-     gap: 20px;
-     justify-content: space-between;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    max-width: 1280px;
     align-items: end;
-    padding-left: 40px;
-    padding-top: 10px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-  
+    padding: 10px 60px 20px 60px;
+    margin: 0px auto 0px auto;  
 }
 
 .header-menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   
 }
 
 .header-menu a {
+      display: inline-block;
+      padding: 10px 0px;
       color: black;
-      font-weight: bold;
+      font-size: 18px;
+      position: relative;
+}
+
+.header-menu a:after  {
+       content: "";
+       display: block; 
+       height: 2px;
+       width: 0px;
+       background: #ffffff;
+       margin-top: 2px;
+       transition: 0.1s;
+       position: absolute;
+
+}
+
+.header-menu a:hover:after {
+         width: 100%; 
+
+}
+
+
+@media (max-width: 800px ) {
+     .header-menu {
+          gap: 10px; 
+    }
+     .header-menu a {
+           background-color: #6e7e68;
+           padding: 8px 12px;    
+     }
+       .header a:after {
+          display: none;
+    }
+}
+
+@media (max-width: 600px ) {
+     .header-menu {
+          gap: 12px;
+     }
+       .header {
+          justify-content: center; 
+          padding: 10px 40px;
+     }
+    .header a:after {
+       display: none;
+ }
 
 }
 
