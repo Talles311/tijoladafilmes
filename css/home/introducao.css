@@ -1,0 +1,32 @@
+.introducao-bg {
+   background-color: #6F8168 ;
+
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Poppins';
+    max-width: 1280px;
+    gap: 0px 60px;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introducao-conteudo {
+      display: inline-block;
+      padding: 10px 60px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.introducao-lista li { 
+    display: grid;
+    justify-content: right;
+    padding-right: 60px;   
+    gap: 40px;      
+
+}
+
+

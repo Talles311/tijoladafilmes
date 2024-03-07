@@ -1,5 +1,22 @@
-@import "./global/header.css";
 @import "./global/global.css";
+@import "./global/header.css";
+
+
+
+/*Utilidades*/
+@import "./utilidades/componentes.css";
+
+
+
+/*HOME*/
+@import "./home/introducao.css";
+
+
+
 @import "./utilidades/cores.css";
+
+
+
+
 
 
