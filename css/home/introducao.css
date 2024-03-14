@@ -9,9 +9,10 @@
     font-family: 'Poppins';
     max-width: 1280px;
     gap: 0px 60px;
-    padding-top: 40px;
+    padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .introducao-conteudo {
@@ -19,14 +20,44 @@
       padding: 10px 60px;
       margin-left: auto;
       margin-right: auto;
+    
 }
+
+
 
 .introducao-lista li { 
     display: grid;
     justify-content: right;
     padding-right: 60px;   
-    gap: 40px;      
+    gap: 40px;    
+}
+
+.lista-menu a {
+    display: inline;
+    position: relative;
+    margin-bottom: 8px;
+    justify-content: right;
 
 }
 
+.lista-menu a:hover {
+    color: #c0ecb8;
+    transition: 0.3s; 
+}
 
+.lista-menu a:after {
+    content: "";
+    display: block; 
+    height: 1px;
+    width: 0px;
+    background: #53af47;
+    margin-top: 0px;
+    transition: 0.5s;
+    position: absolute;
+     
+}
+
+.lista-menu a:hover:after {
+    width: 100%;
+
+}
